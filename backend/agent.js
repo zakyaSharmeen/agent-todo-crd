@@ -25,6 +25,7 @@ ${userInput}
   });
 
   const text = response.output[0].content[0].text;
+  console.log(text);
 
   try {
     return JSON.parse(text);
